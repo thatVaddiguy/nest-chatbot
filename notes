@@ -1,0 +1,18 @@
+to run the agent and world,
+1. rm *.txt
+2. in one shell run: python turnStepWorldNest.py (and enter the l or f command)
+3. in another run: python turnStepAgentNest.py
+
+The main world module is turnStepWorldNest.py which is mostly tk.
+It uses spkeServeNest.py.  It's got extra code that needs to be removed.
+The agent is (obviously) turnStepAgentNest.py.  It uses 
+nealCoverClass
+parseClass
+stateMachineClass and
+turnStepLang
+x
+You probably want to modify turnStepLang to include turn right.
+Then fix up the agent and all the communication so that you get that.
+
+Then copy it all, and make a four command chatbot.
+If you get that going, you're in pretty good shape.
